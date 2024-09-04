@@ -1,0 +1,31 @@
+{
+  "name": "cicd_nodejs_template",
+  "version": "1.0.0",
+  "description": "CICD test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon --watch src/ src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunjaeeun44/CICD_nodejs_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunjaeeun44/CICD_nodejs_template/issues"
+  },
+  "homepage": "https://github.com/yunjaeeun44/CICD_nodejs_template#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}
