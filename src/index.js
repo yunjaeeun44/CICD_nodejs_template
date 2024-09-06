@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false })); //요청 본문의 데이터�
 app.use("/", routes);
 
 app.get("/", (req, res, next) => {
-    res.send('Hello nodejs CICD!');
+    res.send('Hello world!');
 });
 
 app.listen(config.port, () => {
