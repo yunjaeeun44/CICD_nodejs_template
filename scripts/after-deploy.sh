@@ -8,4 +8,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm
 
 npm install
-npm start src
+
+sudo /usr/bin/pm2 start dist
