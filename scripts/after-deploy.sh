@@ -9,4 +9,4 @@ export NVM_DIR="$HOME/.nvm"
 
 npm install
 
-sudo /usr/bin/pm2 start dist
+pm2 start src
